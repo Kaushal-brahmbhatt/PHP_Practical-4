@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PHP File Upload</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+   <form action="pdfup.php" method="post" enctype="multipart/form-data">
+    <h1>You can upload both PDF and JPG file</h1>
+        <input type="file" name="the_file" id="fileToUpload" class="btn btn-primary">
+        <input type="submit" name="submit" value="Start Upload" class="btn btn-primary">
+    </form>
+</body>
+</html>
